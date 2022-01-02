@@ -7,7 +7,7 @@ import com.samclub.astronomypicture.data.excepions.GsonException
 import com.samclub.astronomypicture.util.AppConstants
 
 class SharedPref {
-    private companion object {
+    companion object {
         private var sharedPref: SharedPreferences? = null
         private const val prefFile = AppConstants.shared_pref_file
         private var instance: SharedPref? = null

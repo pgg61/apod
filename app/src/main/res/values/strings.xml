@@ -1,3 +1,5 @@
 <resources>
-  <string name="app_name">Astronomy Picture</string>
+    <string name="app_name">Astronomy Picture</string>
+    <string name="generic_error">Unable to process your request. Please try after some time.</string>
+    <string name="last_visited">You last visited this </string>
 </resources>

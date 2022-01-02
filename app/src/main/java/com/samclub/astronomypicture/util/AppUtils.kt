@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
 import java.util.*
 
-class AppUtils {
+object AppUtils {
 
     @SuppressLint("SimpleDateFormat")
     fun isFetchFromCloudNeeded(apodRetrievedFortoday: String?): Boolean {

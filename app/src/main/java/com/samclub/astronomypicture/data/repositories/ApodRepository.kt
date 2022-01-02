@@ -5,7 +5,7 @@ import com.samclub.astronomypicture.data.model.ApodResponse
 import com.samclub.astronomypicture.data.network.ApiHelper
 import com.samclub.astronomypicture.util.AppConstants
 
-class ApodRepositories (
+class ApodRepository (
     private val apiHelper: ApiHelper,
     private val db: SharedPref
 ) {

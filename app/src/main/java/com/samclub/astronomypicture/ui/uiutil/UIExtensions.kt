@@ -1,6 +1,5 @@
 package com.samclub.astronomypicture.ui.uiutil
 
-import android.app.Activity
 import android.content.Context
 import android.util.TypedValue
 import android.view.View

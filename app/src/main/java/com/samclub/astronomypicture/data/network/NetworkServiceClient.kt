@@ -9,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-class NetworkServiceClient {
+object NetworkServiceClient {
     private fun getApiInstance(networkConnectionInterceptor: NetworkConnectionInterceptor): ApiService {
         val url = BuildConfig.BASE_URL
         val okkHttpclient = OkHttpClient.Builder()
