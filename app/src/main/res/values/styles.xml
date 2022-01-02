@@ -1,2 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    // Text View
+
+    <style name="TextViewHeaderStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewNormalStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_gray</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+</resources>

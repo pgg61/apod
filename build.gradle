@@ -12,6 +12,24 @@ buildscript {
     // NOTE: Do not place your application dependencies here; they belong
     // in the individual module build.gradle files
   }
+  ext {
+    // Sdk and tools
+    compileSdkVersion = 30
+    minSdkVersion = 24
+    targetSdkVersion = 30
+
+    // App dependencies
+    core_ktx_version = '1.6.0'
+    appCompatVersion = '1.1.0'
+    retrofitVersion = '2.9.0'
+    glideVersion = '4.10.0'
+    ok_http_interceptor = '4.9.0'
+    materialVersion = '1.2.0'
+    constraintLayoutVersion='2.0.4'
+    android_lifecycle_ext_Version ='2.2.0'
+    coroutineVersion='1.5.0'
+    lifecycle_version = "2.3.1"
+  }
 }
 
 allprojects {

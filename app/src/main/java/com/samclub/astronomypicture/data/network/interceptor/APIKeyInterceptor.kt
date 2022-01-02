@@ -1,7 +1,8 @@
-package com.samclub.astronomypicture.data.network.innterceptor
+package com.samclub.astronomypicture.data.network.interceptor
 
 import android.os.Build
 import androidx.annotation.RequiresApi
+import com.samclub.astronomypicture.BuildConfig
 import com.samclub.astronomypicture.util.AppConstants.APOD_API_KEY
 import okhttp3.HttpUrl
 import okhttp3.Interceptor
